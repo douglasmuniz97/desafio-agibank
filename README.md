@@ -15,3 +15,10 @@ Java Script<br>
 Cypress<br>
 NodeJS<br>
 
+### Cenários e Pontos Extras
+
+Foi criado dois cenários de testes de automação web:<br>
+Realiza uma busca por um nome no campo de busca do blog da agibank e retorna um assunto.<br>
+Outro cenário e ao buscar um assunto que não busca nada.<br>
+Foi reutiliado código duplicado com a funcionalidade de commands. E reutilizado o link da url como uma urls_base.<br>
+
