@@ -1,0 +1,11 @@
+{
+  "name": "cypress-express-agibank",
+  "version": "1.0.0",
+  "description": "Desafio de testes do Agibank",
+  "main": "index.js",
+  "author": "Douglas Muniz",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.2.0"
+  }
+}
