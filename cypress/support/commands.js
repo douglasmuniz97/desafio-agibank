@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('inicio', ()=>{
+    cy.visit('/')
+    cy.get('#search-field')
+    cy.wait(1000);
+    cy.get('.site-header-above-section-right > .ast-builder-layout-element').type('{enter}')
+})
